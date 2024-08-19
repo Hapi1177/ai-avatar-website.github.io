@@ -59,7 +59,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             'type' => 'text',
             'input' => $text
         ],
-        'source_url' => $image
+        'source_url' => $imageFile
     ];
 
     // Initialize cURL for API request
